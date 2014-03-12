@@ -129,6 +129,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'hanyang_time_table.courses',
+    'hanyang_time_table.utils',
 )
 
 # A sample logging configuration. The only tangible logging
