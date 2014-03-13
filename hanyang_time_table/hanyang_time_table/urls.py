@@ -5,6 +5,7 @@ from django.conf.urls import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
+                       url(r'', include('hanyang_time_table.courses.urls')),
     # Examples:
     # url(r'^$', 'hanyang_time_table.views.home', name='home'),
     # url(r'^hanyang_time_table/', include('hanyang_time_table.foo.urls')),
