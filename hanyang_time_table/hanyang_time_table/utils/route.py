@@ -1,5 +1,5 @@
 from django.http import Http404, HttpResponseNotAllowed
-from django.conf.urls.defaults import url
+from django.conf.urls import url
 
 GET = 'GET'
 PUT = 'PUT'
